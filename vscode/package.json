@@ -1,0 +1,25 @@
+{
+    "name": "brainflip",
+    "displayName": "Brainflip",
+    "description": "Support for the Brainflip teaching language",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.48.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "brainflip",
+            "aliases": ["Brainflip", "brainflip"],
+            "extensions": [".bflip"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "brainflip",
+            "scopeName": "source.brainflip",
+            "path": "./syntaxes/brainflip.tmLanguage.json"
+        }]
+    }
+}

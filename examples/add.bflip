@@ -9,4 +9,4 @@ loop
   right
 end
 left
-print
+write

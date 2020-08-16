@@ -1,0 +1,29 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Brainflip",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#comments"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.brainflip",
+				"match": "\\b(plus|minus|left|right|read|write|loop|end)\\b"
+			}]
+		},
+		"comments": {
+			"patterns": [
+				{
+					"name": "comment.line.number-sign",
+					"match": "#.*"
+				}
+			]
+		}
+	},
+	"scopeName": "source.brainflip"
+}

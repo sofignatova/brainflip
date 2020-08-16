@@ -1,0 +1,44 @@
+# Multiple two numbers
+read # x
+right
+read # y
+left
+loop # until x is zero
+    right
+    loop # a = b = y, y = 0
+        minus
+        right
+        plus
+        right
+        plus
+        left
+        left
+    end
+    right
+    loop
+        minus
+        right
+        right
+        plus
+        left
+        left
+    end
+    right
+    loop
+        minus
+        left
+        left
+        plus
+        right
+        right
+    end
+    left
+    left
+    left
+    minus
+end
+right
+right
+right
+right
+print

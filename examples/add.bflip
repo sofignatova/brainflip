@@ -1,0 +1,12 @@
+# Add two numbers
+read
+right
+read
+loop
+  minus
+  left
+  plus
+  right
+end
+left
+print

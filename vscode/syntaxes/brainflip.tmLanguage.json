@@ -13,7 +13,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.brainflip",
-				"match": "\\b(plus|minus|left|right|read|write|loop|end)\\b"
+				"match": "\\b(plus|minus|left|right|read|print|loop|end)\\b"
 			}]
 		},
 		"comments": {

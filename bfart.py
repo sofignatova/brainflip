@@ -28,7 +28,7 @@ def interpret(lines: [str]):
                 start = loop_starts_stack.pop()
                 start_to_end[start] = num
                 end_to_start[num] = start
-        elif line not in ["plus", "minus", "write", "left", "right", "read", "dump"]:
+        elif line not in ["plus", "minus", "print", "left", "right", "read", "dump"]:
             print(f"unexpected command '{line}' on line {num + 1}")
             return
 
@@ -53,7 +53,7 @@ def interpret(lines: [str]):
         elif line == "right":
             index += 1
             num += 1
-        elif line == "write":
+        elif line == "print":
             print(memory[index])
             num += 1
         elif line == "read":

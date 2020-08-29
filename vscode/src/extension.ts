@@ -72,7 +72,7 @@ function updateDiagnostics(document: vscode.TextDocument, collection: vscode.Dia
 		line = line.split("#")[0].trim()
 		if (line.length == 0) {
 			continue
-		} else if (["left", "right", "plus", "minus", "read", "write", "loop", "end"].indexOf(line) == -1) {
+		} else if (["left", "right", "plus", "minus", "read", "print", "loop", "end"].indexOf(line) == -1) {
 			messages.push(
 				{
 					code: '',

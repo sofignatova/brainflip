@@ -1,0 +1,218 @@
+# commands are: plus, minus, print, read, left, right, loop, end
+#
+# Enter a number: 5
+# 5
+# 4
+# 3
+# 2
+# 1
+# 0
+# Enter a number: 3
+# 0
+# 0
+# 0
+# Enter a number: 4
+# 4
+# 3
+# 2
+# 1
+# Enter a number: 3
+# 1
+# 2
+# 3
+# Enter a number: 3
+# Enter a number: 4
+# 7
+
+
+
+
+read
+loop
+    left 
+    plus
+    print
+    right
+    minus
+end
+
+read
+loop
+    print
+    minus
+end
+print
+
+read
+loop
+    right
+    print
+    left
+    minus
+end
+
+read
+loop
+    print
+    minus
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

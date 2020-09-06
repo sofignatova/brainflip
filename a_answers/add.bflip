@@ -1,0 +1,45 @@
+read 
+right
+read 
+loop
+    minus
+    left
+    plus
+    right
+end
+left
+print
+
+
+
+
+
+#read 
+#right
+#read 
+#loop
+#    plus
+#    right
+#    minus
+#    left
+#end
+#left
+#print
+
+
+
+
+
+
+
+#read 
+#left
+#read 
+#loop
+#    plus
+#    right
+#    minus
+#    left
+#end
+#right
+#print
